@@ -1,6 +1,6 @@
 let Ul = document.getElementById('lists');
-  let Btn2= document.getElementById("btn");
-      Btn2.addEventListener("click",function Addelement(){
+  let Btn1= document.getElementById("btn");
+      Btn1.addEventListener("click",function Addelement(){
   let Inputvalue= document.getElementById("input").value;
   let Text=document.createTextNode(Inputvalue);
      
